@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apex 0.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2011-11-16 12:36+0100\n"
+"POT-Creation-Date: 2014-01-03 17:36+0100\n"
 "PO-Revision-Date: 2011-11-10 13:52+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -15,152 +15,152 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 1.3\n"
 
-#: apex/decorators.py:16 apex/views.py:354
+#: apex/decorators.py:15 apex/views.py:424
 msgid "Not logged in, please log in"
-msgstr "Vous n'êtes pas identifiés, s'il vous plait, logguez vous"
+msgstr ""
 
-#: apex/forms.py:21 apex/forms.py:79 apex/forms.py:90
+#: apex/forms.py:22 apex/forms.py:74 apex/forms.py:85 apex/forms.py:122
 msgid "Username"
-msgstr "Utilisateur"
+msgstr ""
 
-#: apex/forms.py:23 apex/forms.py:80
+#: apex/forms.py:24 apex/forms.py:75 apex/forms.py:124
 msgid "Password"
-msgstr "Mot de passe"
+msgstr ""
 
-#: apex/forms.py:25 apex/forms.py:69 apex/forms.py:123
+#: apex/forms.py:26 apex/forms.py:64 apex/forms.py:118 apex/forms.py:126
 msgid "Passwords must match"
-msgstr "Les mots de passe doivent correspondre"
+msgstr ""
 
-#: apex/forms.py:26
+#: apex/forms.py:27 apex/forms.py:127
 msgid "Repeat Password"
-msgstr "Entrez à nouveau votre mot de passe"
+msgstr ""
 
-#: apex/forms.py:27 apex/forms.py:92
+#: apex/forms.py:28 apex/forms.py:87 apex/forms.py:128
 msgid "Email Address"
-msgstr "Adresse email"
+msgstr ""
 
-#: apex/forms.py:32
+#: apex/forms.py:33 apex/forms.py:133
 msgid "Sorry that username already exists."
-msgstr "Désolé, cet utilisateur éxiste déjà"
+msgstr ""
 
-#: apex/forms.py:66
+#: apex/forms.py:61
 msgid "Old Password"
-msgstr "Ancien mot de passe"
+msgstr ""
 
-#: apex/forms.py:67 apex/forms.py:121
+#: apex/forms.py:62 apex/forms.py:116
 msgid "New Password"
-msgstr "Nouveau mot de passe"
+msgstr ""
 
-#: apex/forms.py:70 apex/forms.py:124
+#: apex/forms.py:65 apex/forms.py:119
 msgid "Repeat New Password"
-msgstr "Répeter le nouveau mot de passe"
+msgstr ""
 
-#: apex/forms.py:76
+#: apex/forms.py:71
 msgid "Your old password doesn't match"
-msgstr "Votre ancien mot de passe ne correspond pas"
+msgstr ""
 
-#: apex/forms.py:86
+#: apex/forms.py:81
 msgid "Login Error -- please try again"
-msgstr "Erreur d'identification -- Veuillez réessayer"
+msgstr ""
 
-#: apex/forms.py:95
+#: apex/forms.py:90
 msgid ""
 "If your username and email weren't found, you may have logged in with a "
 "login provider and didn't set your email address."
 msgstr ""
-"Si votre utilisateur et votre mot de passe n'ont pas été trouvé, vous "
-"pouvez avoir été identifié par un service d'identification et ne pas "
-"voire votre email"
 
-#: apex/forms.py:107
+#: apex/forms.py:102
 msgid "Sorry that username doesn't exist."
-msgstr "Désolé ce mot de passe n'éxiste pas."
+msgstr ""
+
+#: apex/forms.py:106
+msgid "Sorry that email doesn't exist."
+msgstr ""
 
 #: apex/forms.py:111
-msgid "Sorry that email doesn't exist."
-msgstr "Désolé cet émail n'existe pas."
-
-#: apex/forms.py:116
 msgid "You need to specify either a Username or Email address"
-msgstr "Vous devez saisir soit un utilisateur soit un email."
+msgstr ""
 
-#: apex/forms.py:134
+#: apex/forms.py:167
 msgid "OpenID Identifier"
-msgstr "Identifiant OpenID"
+msgstr ""
 
-#: apex/views.py:59
+#: apex/views.py:46
 msgid "You need to login"
-msgstr "Vous devez vous identifier"
+msgstr ""
 
-#: apex/views.py:97
+#: apex/views.py:99
 msgid "Change your Password"
-msgstr "Changer votre mot de passe"
+msgstr ""
 
-#: apex/views.py:115 apex/templates/apex_template.pt:40
+#: apex/views.py:120 apex/templates/apex_template.pt:40
 msgid "Forgot my password"
-msgstr "J'ai oublié mon mot de passe"
+msgstr ""
 
-#: apex/views.py:148
+#: apex/views.py:154
 msgid "Password Reset email sent."
-msgstr "Demande de réinitialisation de mot de passe envoyée"
+msgstr ""
 
-#: apex/views.py:151
+#: apex/views.py:157
 msgid "An error occurred, please contact the support team."
-msgstr "Une erreur est survenue, veuillez contacter le support."
+msgstr ""
 
-#: apex/views.py:158
+#: apex/views.py:164
 msgid "Reset My Password"
-msgstr "Réinitialiser mon mot de passe"
+msgstr ""
 
-#: apex/views.py:182
+#: apex/views.py:190
 msgid "Password Changed. Please log in."
-msgstr "Mot de passe changé, veuillez vous identifier"
+msgstr ""
 
-#: apex/views.py:186 apex/views.py:210
+#: apex/views.py:194 apex/views.py:218
 msgid "Invalid request, please try again"
-msgstr "Requète invalide, réésayez encore"
+msgstr ""
 
-#: apex/views.py:207
+#: apex/views.py:215
 msgid "Account activated. Please log in."
-msgstr "Compte activé, Veuillez vous identifier."
+msgstr ""
 
-#: apex/views.py:218
+#: apex/views.py:226
 msgid "Register"
-msgstr "S'enregistrer"
+msgstr ""
 
-#: apex/views.py:294
+#: apex/views.py:261
+msgid "Add another Authentication method"
+msgstr ""
+
+#: apex/views.py:360
 msgid "Successfully Logged in, welcome!"
-msgstr "Identification réussie, bienvenue !"
+msgstr ""
 
-#: apex/views.py:307
+#: apex/views.py:373
 msgid "OpenID Registration"
-msgstr "Identification OpenID"
+msgstr ""
 
-#: apex/views.py:371
+#: apex/views.py:440
 msgid "Edit"
-msgstr "Editer"
+msgstr ""
 
-#: apex/views.py:385
+#: apex/views.py:454
 msgid "Profile Updated"
-msgstr "Profil mis à jour"
+msgstr ""
 
 #: apex/lib/db.py:23
 #, python-format
 msgid "No %s matches the given query."
 msgstr ""
 
-#: apex/lib/form.py:101
+#: apex/lib/form.py:108
 msgid "This field is required."
-msgstr "Ce champs est requis"
+msgstr ""
 
-#: apex/lib/libapex.py:64
+#: apex/lib/libapex.py:51
 msgid "Password reset request received"
-msgstr "Demande de réinitialisation de mot de passe reçue"
+msgstr ""
 
-#: apex/lib/libapex.py:65
-#, fuzzy
+#: apex/lib/libapex.py:52
 msgid ""
 "\n"
 "A request to reset your password has been received. Please go to\n"
@@ -170,22 +170,12 @@ msgid ""
 "\n"
 "If you did not make this request, you can safely ignore it.\n"
 msgstr ""
-"\n"
-"Une demande de réinitialisation de votre mot de passe a été récue. "
-"Veuillez vous rendre sur l'URL \n"
-"suivante pour changer votre mot de passe:\n"
-"\n"
-"%_url_%\n"
-"\n"
-"Si vous n'en avez pas fait personnellment la demande, vous pouvez ignoer "
-"ce message.\n"
 
-#: apex/lib/libapex.py:84
+#: apex/lib/libapex.py:71
 msgid "Account activation. Please activate your account."
-msgstr "Activation de compte. Veuillez activer votre  compte."
+msgstr ""
 
-#: apex/lib/libapex.py:85
-#, fuzzy
+#: apex/lib/libapex.py:72
 msgid ""
 "\n"
 "This site requires account validation. Please follow the link below to\n"
@@ -195,25 +185,138 @@ msgid ""
 "\n"
 "If you did not make this request, you can safely ignore it.\n"
 msgstr ""
-"\n"
-"Ce site demande une validation des comptes. Veuillez suivre le lien "
-"suivant pour \n"
-"activer votre compte:\n"
-"\n"
-"%_url_%\n"
-"\n"
-"Si vous n'en avez pas fait personnellment la demande, vous pouvez ignoer "
-"ce message.\n"
 
-#: apex/lib/subscribers.py:43
+#: apex/lib/libapex.py:92
+msgid "Velruse error while decoding json"
+msgstr ""
+
+#: apex/lib/libapex.py:99
+msgid "Velruse backing store unavailable"
+msgstr ""
+
+#: apex/lib/subscribers.py:60
 msgid "CSRF token is missing or invalid"
-msgstr "Le jeton CSRF est manquant ou invalid"
+msgstr ""
 
 #: apex/templates/apex_template.pt:36
 msgid "Login"
-msgstr "S'identifier"
+msgstr ""
 
 #: apex/templates/apex_template.pt:38
 msgid "Create an Account"
-msgstr "Créer un compte"
+msgstr ""
+
+#~ msgid "Not logged in, please log in"
+#~ msgstr "Vous n'êtes pas identifiés, s'il vous plait, logguez vous"
+
+#~ msgid "Username"
+#~ msgstr "Utilisateur"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Passwords must match"
+#~ msgstr "Les mots de passe doivent correspondre"
+
+#~ msgid "Repeat Password"
+#~ msgstr "Entrez à nouveau votre mot de passe"
+
+#~ msgid "Email Address"
+#~ msgstr "Adresse email"
+
+#~ msgid "Sorry that username already exists."
+#~ msgstr "Désolé, cet utilisateur éxiste déjà"
+
+#~ msgid "Old Password"
+#~ msgstr "Ancien mot de passe"
+
+#~ msgid "New Password"
+#~ msgstr "Nouveau mot de passe"
+
+#~ msgid "Repeat New Password"
+#~ msgstr "Répeter le nouveau mot de passe"
+
+#~ msgid "Your old password doesn't match"
+#~ msgstr "Votre ancien mot de passe ne correspond pas"
+
+#~ msgid "Login Error -- please try again"
+#~ msgstr "Erreur d'identification -- Veuillez réessayer"
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Sorry that username doesn't exist."
+#~ msgstr "Désolé ce mot de passe n'éxiste pas."
+
+#~ msgid "Sorry that email doesn't exist."
+#~ msgstr "Désolé cet émail n'existe pas."
+
+#~ msgid "You need to specify either a Username or Email address"
+#~ msgstr "Vous devez saisir soit un utilisateur soit un email."
+
+#~ msgid "OpenID Identifier"
+#~ msgstr "Identifiant OpenID"
+
+#~ msgid "You need to login"
+#~ msgstr "Vous devez vous identifier"
+
+#~ msgid "Change your Password"
+#~ msgstr "Changer votre mot de passe"
+
+#~ msgid "Forgot my password"
+#~ msgstr "J'ai oublié mon mot de passe"
+
+#~ msgid "Password Reset email sent."
+#~ msgstr "Demande de réinitialisation de mot de passe envoyée"
+
+#~ msgid "An error occurred, please contact the support team."
+#~ msgstr "Une erreur est survenue, veuillez contacter le support."
+
+#~ msgid "Reset My Password"
+#~ msgstr "Réinitialiser mon mot de passe"
+
+#~ msgid "Password Changed. Please log in."
+#~ msgstr "Mot de passe changé, veuillez vous identifier"
+
+#~ msgid "Invalid request, please try again"
+#~ msgstr "Requète invalide, réésayez encore"
+
+#~ msgid "Account activated. Please log in."
+#~ msgstr "Compte activé, Veuillez vous identifier."
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "Successfully Logged in, welcome!"
+#~ msgstr "Identification réussie, bienvenue !"
+
+#~ msgid "OpenID Registration"
+#~ msgstr "Identification OpenID"
+
+#~ msgid "Edit"
+#~ msgstr "Editer"
+
+#~ msgid "Profile Updated"
+#~ msgstr "Profil mis à jour"
+
+#~ msgid "No %s matches the given query."
+#~ msgstr ""
+
+#~ msgid "This field is required."
+#~ msgstr "Ce champs est requis"
+
+#~ msgid "Password reset request received"
+#~ msgstr "Demande de réinitialisation de mot de passe reçue"
+
+#~ msgid "Account activation. Please activate your account."
+#~ msgstr "Activation de compte. Veuillez activer votre  compte."
+
+#~ msgid "CSRF token is missing or invalid"
+#~ msgstr "Le jeton CSRF est manquant ou invalid"
+
+#~ msgid "Login"
+#~ msgstr "S'identifier"
+
+#~ msgid "Create an Account"
+#~ msgstr "Créer un compte"
 
