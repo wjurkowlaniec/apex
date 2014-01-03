@@ -1,17 +1,18 @@
-# Translations template for apex.
+# Polish translations for apex.
 # Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the apex project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
-#, fuzzy
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: apex 0.9.10\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-01-03 17:36+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-01-04 00:11+0100\n"
+"Last-Translator: wojtas\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,133 +20,133 @@ msgstr ""
 
 #: apex/decorators.py:15 apex/views.py:424
 msgid "Not logged in, please log in"
-msgstr ""
+msgstr "Nie zalogowany, proszę się zalogować"
 
 #: apex/forms.py:22 apex/forms.py:74 apex/forms.py:85 apex/forms.py:122
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: apex/forms.py:24 apex/forms.py:75 apex/forms.py:124
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #: apex/forms.py:26 apex/forms.py:64 apex/forms.py:118 apex/forms.py:126
 msgid "Passwords must match"
-msgstr ""
+msgstr "Hasła muszą się zgadzać"
 
 #: apex/forms.py:27 apex/forms.py:127
 msgid "Repeat Password"
-msgstr ""
+msgstr "Powtórz hasło"
 
 #: apex/forms.py:28 apex/forms.py:87 apex/forms.py:128
 msgid "Email Address"
-msgstr ""
+msgstr "Adres email"
 
 #: apex/forms.py:33 apex/forms.py:133
 msgid "Sorry that username already exists."
-msgstr ""
+msgstr "Ta nazwa użytkownika już istnieje. "
 
 #: apex/forms.py:61
 msgid "Old Password"
-msgstr ""
+msgstr "Stare hasło"
 
 #: apex/forms.py:62 apex/forms.py:116
 msgid "New Password"
-msgstr ""
+msgstr "Nowe hasło"
 
 #: apex/forms.py:65 apex/forms.py:119
 msgid "Repeat New Password"
-msgstr ""
+msgstr "Powtórz nowe hasło"
 
 #: apex/forms.py:71
 msgid "Your old password doesn't match"
-msgstr ""
+msgstr "Twoje stare hasło jest niepoprawne"
 
 #: apex/forms.py:81
 msgid "Login Error -- please try again"
-msgstr ""
+msgstr "Błąd logowania - proszę spróbować ponownie"
 
 #: apex/forms.py:90
 msgid ""
-"If your username and email weren't found, you may have logged in with a login"
-" provider and didn't set your email address."
-msgstr ""
+"If your username and email weren't found, you may have logged in with a "
+"login provider and didn't set your email address."
+msgstr " "
 
 #: apex/forms.py:102
 msgid "Sorry that username doesn't exist."
-msgstr ""
+msgstr "Ta nazwa użytkownika nie istnieje."
 
 #: apex/forms.py:106
 msgid "Sorry that email doesn't exist."
-msgstr ""
+msgstr "Ten adres email nie istnieje."
 
 #: apex/forms.py:111
 msgid "You need to specify either a Username or Email address"
-msgstr ""
+msgstr "Musisz podać nazwę użytkownika lub adres email"
 
 #: apex/forms.py:167
 msgid "OpenID Identifier"
-msgstr ""
+msgstr "Identyfikator OpenID"
 
 #: apex/views.py:46
 msgid "You need to login"
-msgstr ""
+msgstr "Musisz się zalogować"
 
 #: apex/views.py:99
 msgid "Change your Password"
-msgstr ""
+msgstr "Zmień hasło"
 
 #: apex/views.py:120 apex/templates/apex_template.pt:40
 msgid "Forgot my password"
-msgstr ""
+msgstr "Zapomniałem hasła"
 
 #: apex/views.py:154
 msgid "Password Reset email sent."
-msgstr ""
+msgstr "Link do resetu hasła wysłany"
 
 #: apex/views.py:157
 msgid "An error occurred, please contact the support team."
-msgstr ""
+msgstr "Nastąpił błąd, skontaktuj się z działem wsparcia"
 
 #: apex/views.py:164
 msgid "Reset My Password"
-msgstr ""
+msgstr "Zresetuj hasło"
 
 #: apex/views.py:190
 msgid "Password Changed. Please log in."
-msgstr ""
+msgstr "Hasło zmienione. Proszę się zalogować."
 
 #: apex/views.py:194 apex/views.py:218
 msgid "Invalid request, please try again"
-msgstr ""
+msgstr "Nieprawidłowe żądanie, spróbuj ponownie"
 
 #: apex/views.py:215
 msgid "Account activated. Please log in."
-msgstr ""
+msgstr "Konto aktywowane. Proszę się zalogować."
 
 #: apex/views.py:226
 msgid "Register"
-msgstr ""
+msgstr "Rejestracja"
 
 #: apex/views.py:261
 msgid "Add another Authentication method"
-msgstr ""
+msgstr "Dodaj inną metodę autentykacji"
 
 #: apex/views.py:360
 msgid "Successfully Logged in, welcome!"
-msgstr ""
+msgstr "Pomyślnie zalogowano, witamy!"
 
 #: apex/views.py:373
 msgid "OpenID Registration"
-msgstr ""
+msgstr "Rejestracja OpenID"
 
 #: apex/views.py:440
 msgid "Edit"
-msgstr ""
+msgstr "Edytuj"
 
 #: apex/views.py:454
 msgid "Profile Updated"
-msgstr ""
+msgstr "Konto zaktualizowane"
 
 #: apex/lib/db.py:23
 #, python-format
@@ -154,7 +155,7 @@ msgstr ""
 
 #: apex/lib/form.py:108
 msgid "This field is required."
-msgstr ""
+msgstr "To pole jest wymagane."
 
 #: apex/lib/libapex.py:51
 msgid "Password reset request received"
@@ -173,7 +174,7 @@ msgstr ""
 
 #: apex/lib/libapex.py:71
 msgid "Account activation. Please activate your account."
-msgstr ""
+msgstr "Aktywacja konta. Proszę aktywuj swoje konto."
 
 #: apex/lib/libapex.py:72
 msgid ""
@@ -196,13 +197,13 @@ msgstr ""
 
 #: apex/lib/subscribers.py:60
 msgid "CSRF token is missing or invalid"
-msgstr ""
+msgstr "Brakujący token CSRF"
 
 #: apex/templates/apex_template.pt:36
 msgid "Login"
-msgstr ""
+msgstr "Logowanie"
 
 #: apex/templates/apex_template.pt:38
 msgid "Create an Account"
-msgstr ""
+msgstr "Stwórz konto"
 
