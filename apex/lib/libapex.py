@@ -145,10 +145,17 @@ def apex_email(request, recipients, subject, body, sender=None):
         sender = apex_settings('sender_email')
         if not sender:
             sender = 'nobody@example.com'
-    message = Message(subject=subject,
+    as_html = apex_settings('email_html')
+    if as_html:
+        message = Message(subject=subject,
                       sender=sender,
                       recipients=[recipients],
-                      body=body)
+                      html=body)
+    else:
+        message = Message(subject=subject,
+                      sender=sender,
+                      recipients=[recipients],
+                      body=body)        
     mailer.send(message)
 
     report_recipients = apex_settings('email_report_recipients')
