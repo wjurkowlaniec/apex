@@ -37,15 +37,15 @@ class RegisterForm(ExtendedForm):
         group = self.request.registry.settings.get('apex.default_user_group',
                                                    None)
         if asbool(apex.lib.libapex.apex_settings('email_validate')):
-            activate='Y'
+            active='Y'
         else:
-            activate='N'
+            active='N'
 
         user = apex.lib.libapex.create_user(username=login,
                                             password=self.data['password'],
                                             email=self.data['email'],
                                             group=group,
-                                            activate=activate)
+                                            active=active)
         return user
 
     def save(self):
